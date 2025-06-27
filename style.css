@@ -79,3 +79,19 @@ footer {
   font-size: 0.9rem;
   color: #94a3b8;
 }
+
+
+/* Navigation bar highlight effect */
+.menu a {
+  color: #94a3b8;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.menu a:hover,
+.menu a.active {
+  background-color: #22c55e;
+  color: black;
+  font-weight: bold;
+}
